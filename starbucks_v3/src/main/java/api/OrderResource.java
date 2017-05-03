@@ -113,7 +113,7 @@ public class OrderResource extends ServerResource {
         JacksonRepresentation<Order> orderRep = new JacksonRepresentation<Order> ( rep, Order.class ) ;
 
         Order order = orderRep.getObject() ;
-        StarbucksAPI.setOrderStatus( order, getReference().toString(), StarbucksAPI.OrderStatus.PLACED ) ;
+        StarbucksAPI.setOrderStatus( order, getReference().toString(), StarbucksAPI.OrderStatus.INCART ) ;
         StarbucksAPI.placeOrder( order.id, order ) ;
 
         Representation result = new JacksonRepresentation<Order>(order) ;

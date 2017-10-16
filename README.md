@@ -33,6 +33,7 @@ The online ordering has a 3-step process <br><ol>
 </tr>
 </table>
 
+<p><strong>NOTE:</strong>This repository is forked and developed on <a href="https://github.com/paulnguyen/cmpe281/tree/master/restlet/starbucks_v3"</a>starbucks_v3</p>
 
 ## Table of content
 
